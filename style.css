@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f0f5;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.spelare {
+  margin-bottom: 20px;
+}
+
+.kort {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.kort:hover {
+  transform: scale(1.1);
+  border-color: #0077cc;
+}
+
+.poäng {
+  font-weight: bold;
+  margin-top: 5px;
+}
